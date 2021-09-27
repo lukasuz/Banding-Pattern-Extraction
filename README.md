@@ -1,6 +1,6 @@
 
 
-![Chromsome Extraction Header](/home/lukas/Downloads/header.png)
+![Chromsome Extraction Header](./header.png)
 
 # Banding-Pattern-Extraction
 
