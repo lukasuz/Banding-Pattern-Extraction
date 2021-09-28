@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="banding_pattern_extraction", # Replace with your own username
+    name="banding_pattern_extraction",
     version="0.1.0",
     author="Lukas Uzolas",
     author_email="lukas@uzolas.com",
@@ -15,7 +15,6 @@ setup(
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
