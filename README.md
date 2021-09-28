@@ -1,10 +1,10 @@
 
 
-![Chromsome Extraction Header](/home/lukas/Downloads/header.png)
+![Chromsome Extraction Header](./header.png)
 
 # Banding-Pattern-Extraction
 
-A package that offers multiple functionalities regarding banding pattern extraction of stained banded chromosome images. The extraction method is based on [0], but yields improvements such as angle interpolation in between perpendicular lines (see (d)). You can further generate banding pattern segmentation masks (see (h)) and impose Perlin noise banding patterns onto chromosome shapes. For more information check out our paper [paper](https://arxiv.org/abs/2109.09702).
+A package that offers multiple functionalities regarding banding pattern extraction of stained banded chromosome images. The extraction method is based on [0], but yields improvements such as angle interpolation in between perpendicular lines (see (d)). You can further generate banding pattern segmentation masks (see (h)) and impose Perlin noise banding patterns onto chromosome shapes. For more information check out our [paper](https://arxiv.org/abs/2109.09702).
 
 If this work helps your research, please cite our paper (citation below).
 
