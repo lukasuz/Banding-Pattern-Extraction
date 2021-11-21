@@ -4,7 +4,7 @@ from scipy.interpolate import interp1d
 
 from .bresenham import bresenham_pixel_summation
 
-# Rotation vector for 90 degrees
+# Rotation matrix for 90 degrees
 R = np.array([
     [np.cos(np.pi/2), -np.sin(np.pi/2)],
     [np.sin(np.pi/2), np.cos(np.pi/2)]
