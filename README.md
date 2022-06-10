@@ -4,10 +4,9 @@
 
 # Banding-Pattern-Extraction
 
-A package that offers multiple functionalities regarding banding pattern extraction of stained banded chromosome images. The extraction method is based on [0], but yields improvements such as angle interpolation in between perpendicular lines (see (d)). You can further generate banding pattern segmentation masks (see (h)) and impose Perlin noise banding patterns onto chromosome shapes. For more information check out our [paper](https://arxiv.org/abs/2109.09702).
+A package that offers multiple functionalities regarding banding pattern extraction of stained banded chromosome images, used in our work to generate novel chromosomes based on their banding pattern (see [Deep Anomaly Generation](https://ieeexplore.ieee.org/document/9785372)). The extraction method is based on [0], but yields improvements such as angle interpolation in between perpendicular lines (see (d)). You can further generate banding pattern segmentation masks (see (h)) and impose Perlin noise banding patterns onto chromosome shapes.
 
 If this work helps your research, please cite our paper (citation below).
-
 
 
 ### Installing this module
@@ -124,14 +123,15 @@ one_hot_bp = BPE.one_hot_encode(...)
 ## Citation
 
 ```latex
-@misc{uzolas2021deep,
-      title={Deep Anomaly Generation: An Image Translation Approach of Synthesizing Abnormal Banded Chromosome Images}, 
-      author={Lukas Uzolas and Javier Rico and Pierrick Coupé and Juan C. SanMiguel and György Cserey},
-      year={2021},
-      eprint={2109.09702},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
+@ARTICLE{9785372,
+  author={Uzolas, Lukas and Rico, Javier and Coup&#x00E9;, Pierrick and SanMiguel, Juan C. and Cserey, Gy&#x00F6;rgy},
+  journal={IEEE Access}, 
+  title={Deep Anomaly Generation: An Image Translation Approach of Synthesizing Abnormal Banded Chromosome Images}, 
+  year={2022},
+  volume={10},
+  number={},
+  pages={59090-59098},
+  doi={10.1109/ACCESS.2022.3178786}}
 ```
 
 
